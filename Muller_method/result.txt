@@ -1,0 +1,23 @@
+function f(x):
+    x**5 - x**4 + 2*x**3 - 3*x**2 + x - 4
+with
+    p0 := 0.0
+    p1 := 1.0
+    p2 := 2.0
+    max_iter := 100
+    Error tolerance eps := 1e-3
+
+Output of Muller method
+    
+    a = 11.000000000 b = 11.000000000 c = -4.000000000 root = 1.283349452 
+    Current approximation at 1 is 1.283349451800640
+    a = 6.830911140 b = 23.935534927 c = -2.661688274 root = 1.391230395 
+    Current approximation at 2 is 1.391230395437434
+    a = 3.306331409 b = 30.124448485 c = -1.564176438 root = 1.442861630 
+    Current approximation at 3 is 1.442861630197730
+    a = 2.138722222 b = 13.225239684 c = -1.564176438 root = 1.507322949 
+    Current approximation at 4 is 1.507322949287101
+    a = 2.251118033 b = 14.585608607 c = -1.564176438 root = 1.496752919 
+    Current approximation at 5 is 1.496752919304598
+    a = 2.232311773 b = 14.353624564 c = -1.564176438 root = 1.498417890 
+    Current approximation at 6 is 1.498417889910505
