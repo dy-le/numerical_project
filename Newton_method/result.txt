@@ -1,0 +1,22 @@
+function f(x):
+    x**5 - x**4 + 2*x**3 - 3*x**2 + x - 4
+Df(X):
+    5*x**4 - 4*x**3 + 6*x**2 - 6*x + 1
+with:
+    max_iter := 100
+    Error tolerance eps := 1e-4
+
+Output of Newton method
+
+    Step 1 is : 4.0
+    Step 2 is : 3.226982680036463
+    Step 3 is : 2.6147069857653715
+    Step 4 is : 2.1408909178607676
+    Step 5 is : 1.7972980382351813
+    Step 6 is : 1.5887914164129464
+    Step 7 is : 1.5090430997274666
+    Step 8 is : 1.4983657746916184
+    Step 9 is : 1.4981900316451104
+    
+    Found solution after 9 iterations.
+    1.4981900316451104
