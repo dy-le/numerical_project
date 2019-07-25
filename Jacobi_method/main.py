@@ -15,6 +15,7 @@ def jacobi(A, b, x, n, eps = 1e-15):
         -------  
         list of floats
             solution to the system of linear equation
+                Ax = b
 
         Raises
         ------

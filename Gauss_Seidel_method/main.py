@@ -14,6 +14,7 @@ def gauss_seidel(m, b, x0=None, eps=1e-3, max_iteration=100):
     -------  
     list of floats
         solution to the system of linear equation
+            Ax = b
     
     Raises
     ------
